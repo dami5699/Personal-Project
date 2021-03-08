@@ -1,0 +1,138 @@
+body {
+  text-align: center;
+  background-color: black;
+}
+
+.startBtn {
+  position: absolute;
+  top: 20px;
+  left: 750px;
+  z-index: 0;
+}
+
+.stopBtn {
+  position: absolute;
+  top: 20px;
+  left: 750px;
+  z-index: 0;
+}
+
+.div__startBtn {
+  width: 60px;
+  height: 60px;
+  border: 4px solid black;
+  border-radius: 10px;
+}
+
+.div__startBtn:hover {
+  transform: scale(1.1);
+}
+
+.div__stoptBtn {
+  width: 60px;
+  height: 60px;
+  border: 4px solid black;
+  border-radius: 10px;
+}
+
+.div__stoptBtn:hover {
+  transform: scale(1.1);
+}
+
+.div__replayBtn {
+  width: 60px;
+  height: 60px;
+  border: 4px solid black;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.div__replayBtn:hover {
+  transform: scale(1.1);
+}
+
+.gameTime {
+  position: absolute;
+  top: 85px;
+  left: 700px;
+  border: 4px solid black;
+  width: 160px;
+  height: 35px;
+  font-size: 26px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.carrot_count {
+  position: absolute;
+  top: 140px;
+  left: 750px;
+  border: 4px solid black;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  font-size: 35px;
+  background-color: salmon;
+  color: white;
+}
+
+.replayBtn {
+  position: absolute;
+  top: 320px;
+  left: 500px;
+  background-color: black;
+  border-radius: 10px;
+  width: 560px;
+  height: 200px;
+  font-size: 50px;
+  color: white;
+  /* opacity: 0.6; */
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.replayBtnWin {
+  position: absolute;
+  top: 320px;
+  left: 500px;
+  background-color: black;
+  border-radius: 10px;
+  width: 560px;
+  height: 200px;
+  font-size: 50px;
+  color: white;
+  /* opacity: 0.6; */
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.replayBtnReplay {
+  position: absolute;
+  top: 320px;
+  left: 500px;
+  background-color: black;
+  border-radius: 10px;
+  width: 560px;
+  height: 200px;
+  font-size: 50px;
+  color: white;
+  /* opacity: 0.6; */
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.bkground {
+  width: auto;
+  height: auto;
+  max-width: 1100px;
+  max-height: 1100px;
+
+  position: relative;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.carrotImg:hover {
+  transform: scale(1.1);
+}
+
+.bugImg:hover {
+  transform: scale(1.1);
+}

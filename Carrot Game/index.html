@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carrotGame</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4895e5a54d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- game background -->   
+    <div class="bkContainer">
+        <img src="carrot-200629-202923/carrot/img/background.png" class="bkground">
+
+    </div>
+        <!-- stop button -->  
+        <div class="stopBtn">
+            <button class="div__stoptBtn" id="stopBtn">               
+                <i class="fas fa-stop"></i>
+            </button>
+        </div>
+
+        <!-- start button -->  
+        <div class="startBtn">
+            <button class="div__startBtn" id="startBtn">               
+                <i class="fas fa-play"></i>
+            </button>
+        </div>
+    
+        <!-- Time -->
+        <div class="gameTime" id="gameTimer">0 : 0</div>
+
+        <!-- carrot count -->
+        <div class = "carrot_count" id="carrotCount">0</div>
+
+        <!-- replay button -->
+        <!-- You Lost -->
+        <div class="replayBtn" style="display:none">
+            <button class="div__replayBtn" id="replayBtn">               
+                <i class="fas fa-redo"></i>
+            </button></br>
+            YOU LOST
+        </div>
+
+        <!-- You Win -->
+        <div class="replayBtnWin" style="display:none">
+            <button class="div__replayBtn" id="replayBtn">               
+                <i class="fas fa-redo"></i>
+            </button></br>
+            YOU WIN
+        </div>
+
+        <!-- Replay? -->
+        <div class="replayBtnReplay" style="display:none">
+            <button class="div__replayBtn" id="replayBtn">               
+                <i class="fas fa-redo"></i>
+            </button></br>
+            REPLAY?
+        </div>
+
+        <!-- Audio -->
+        <audio src ="carrot-200629-202923/carrot/sound/bg.mp3" id="audio1"></audio>
+        <audio src ="carrot-200629-202923/carrot/sound/carrot_pull.mp3" id="audio2"></audio>
+        <audio src ="carrot-200629-202923/carrot/sound/bug_pull.mp3" id="audio3"></audio>
+        <audio src ="carrot-200629-202923/carrot/sound/game_win.mp3" id="audio4"></audio>
+        <audio src ="carrot-200629-202923/carrot/sound/alert.wav" id="audio5"></audio>
+            
+</body>
+</html>
